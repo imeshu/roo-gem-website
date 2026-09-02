@@ -211,13 +211,32 @@ footer {
 }
 
 @media (max-width: 700px) {
+
+
+
+  .logo {
+  width: 80px;
+};
+
+
   .brand img {
-    width: auto;
+    width: 200px;
+  }
+
+  .brand h2 {
+    font-size: 18px;
+  }
+
+  .brand p {
+    font-size: 9px;
+  }
+
+  .hero h3 {
+    font-size: 30px;
   }
 
   .countdown {
     flex-wrap: wrap;
-
     justify-content: center;
   }
 
