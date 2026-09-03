@@ -1,6 +1,6 @@
 
 const launchDate =
-new Date("October 10, 2026 00:00:00")
+new Date("October 17, 2026 18:00:00")
 .getTime();
 
 
@@ -21,29 +21,19 @@ launchDate-now;
 let days =
 Math.floor(distance/(1000*60*60*24));
 
-
-
 let hours =
 Math.floor(
 (distance%(1000*60*60*24))
-/(1000*60*60)
-);
-
-
+/(1000*60*60));
 
 let minutes =
 Math.floor(
 (distance%(1000*60*60))
-/(1000*60)
-);
-
-
+/(1000*60));
 
 let seconds =
 Math.floor(
-(distance%(1000*60))
-/1000
-);
+(distance%(1000*60))/1000);
 
 
 
